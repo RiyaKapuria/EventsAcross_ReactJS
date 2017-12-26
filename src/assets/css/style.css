@@ -1,0 +1,257 @@
+.title {
+  margin-bottom: 30px;
+}
+.button-upspace {
+  margin-top: 30px;
+  padding: 15px 0;
+  background: #23231f;
+}
+.imgStyle {
+  margin: 0px auto;
+}
+.carsouselStyle {
+  width: 750px;
+  height: 350px;
+  position: relative;
+  top: -70px;
+}
+.carousel-inner {
+  border-radius: 5px;
+}
+.jumbotron {
+  background-color: #000;
+  color: #fff;
+}
+.body_container {
+  padding: 80px 120px;
+}
+.link-inline ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  justify-content: space-between;
+}
+.link-inline ul li {
+  align-content: space-between;
+  flex: 1;
+}
+.footertext {
+  color: #ffffff;
+}
+.crop {
+  width: 120px;
+  height: 120px;
+  border: solid;
+  border-color: white;
+}
+.no-bullet {
+  list-style: none;
+}
+#footer {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #333;
+}
+#footer p span.glyphicon.glyphicon-envelope {
+  color: #16aac4;
+}
+#footer p span.glyphicon.glyphicon-phone-alt {
+  color: #d9093a;
+}
+#add_button {
+  position: fixed;
+}
+#archive_button {
+  position: fixed;
+  top: 55%;
+}
+#notification_bell {
+ color:#ffffff;
+ font-size:25px;
+}
+#profileName {
+ width: 75px;
+ height: 75px;
+ border-radius: 50%;
+ background: #337ab7;
+ font-size: 25px;
+ color: #fff;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#profileThumbnail{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #d9093a;
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bucket-list, #tag-list{
+  list-style-type: none;
+}
+#address_panel input {
+  width: 100%;
+}
+.dd-action {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.theme-dropdown li input{
+  padding-right: 40px;
+}
+.theme-dropdown li {
+  margin: 0 10px;
+  position: relative;
+}
+.btn-add-panel {
+  margin: 0 10px;
+}
+.space-btn {
+  display: flex;
+  align-items: center;
+}
+.space-btn button {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+#archive_button {
+  position: fixed;
+  top: 55%;
+  left: 0;
+  width: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+}
+button#archive_button:hover {
+  width: 150px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-transition: width .5s;
+  transition: width .5s;
+}
+.react-datepicker__time-list {
+  padding: unset !important;
+}
+.link-underline {
+  text-decoration: none ;
+  color: black;
+}
+.link-underline:hover {
+  color: #16aac4;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn:focus, a:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.glyphicon.glyphicon-step-backward, .glyphicon.glyphicon-step-forward {
+  font-size: 25px;
+}
+.panel-padding {
+  margin-bottom: 0px !important;
+}
+.glyphicon.glyphicon-map-marker {
+  font-size: 30px;
+}
+.glyphicon.glyphicon-time, .glyphicon.glyphicon-tags,
+.glyphicon.glyphicon-link, .user-icon, .glyphicon.glyphicon-calendar {
+  font-size: 24px;
+}
+.share {
+  margin-top: 9px;
+}
+.filter-dropdown {
+  width: 100%;
+}
+.bucket-holder {
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #aa6708;
+  padding: 10px;
+  display: inline-block;
+}
+.event-holder {
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #1b809e;
+}
+.home-holder-danger {
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #e33f56;
+  color: white;
+  padding: 10px;
+}
+.home-holder-warning {
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #ebae2e;
+  color: white;
+  padding: 10px;
+}
+.home-holder-info {
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: #6a46b8;
+  color: white;
+  padding: 10px;
+}
+.rocket {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.hide-rocket {
+  display: none;
+}
+.google-login {
+  background: #fff;
+  border: 1px solid;
+  width: 40%;
+  padding: 0;
+  margin: auto;
+  box-shadow: 2px 2px #888888;
+}
+.google-btn {
+  background: #fff;
+  border: none;
+  padding: 0px;
+  margin-top: 8px;
+  outline: none;
+}
+.dash-btn-width {
+  width: 210px;
+}
+.home-image {
+  width: 100%;
+  width: -moz-available;
+  width: -webkit-fill-available;
+}
+.home-text {
+  font-weight: 600;
+  padding-top: 70px;
+  padding-left: 40px;
+  z-index: 2;
+  position: absolute;
+  line-height: 1;
+}
